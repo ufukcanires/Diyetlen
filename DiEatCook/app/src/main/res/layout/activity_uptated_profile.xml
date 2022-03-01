@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#708090"
+    tools:context=".ui.user.UptatedProfileActivity">
+
+    <EditText
+        android:id="@+id/adsoyad"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_corner"
+        android:backgroundTint="@null"
+        android:inputType="text"
+        android:hint="Ad-Soyad Bilgisi Giriniz"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/yas"
+    android:layout_width="330dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/btn_corner"
+    android:backgroundTint="@null"
+    android:inputType="number"
+    android:hint="Yaş Bilgisi Giriniz"
+    android:paddingLeft="15dp"
+    android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/cinsiyet"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_corner"
+        android:backgroundTint="@null"
+        android:inputType="text"
+        android:hint="Cinsiyet Bilgisi Giriniz"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/boy"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_corner"
+        android:backgroundTint="@null"
+        android:inputType="number"
+        android:hint="Boy Bilgisi Giriniz"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/kilo"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_corner"
+        android:backgroundTint="@null"
+        android:inputType="number"
+        android:hint="Kilo Bilgisi Giriniz"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <EditText
+    android:id="@+id/boyun"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_corner"
+        android:backgroundTint="@null"
+        android:inputType="number"
+        android:hint="Boyun Çevresi Giriniz"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <EditText
+    android:id="@+id/bel"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_corner"
+        android:backgroundTint="@null"
+        android:inputType="number"
+        android:hint="Bel Çevresi Giriniz"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <EditText
+android:id="@+id/kalca"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_corner"
+        android:backgroundTint="@null"
+        android:inputType="number"
+        android:hint="Kalça Ölçüsü Giriniz"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tarih"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_corner"
+        android:backgroundTint="@null"
+        android:inputType="number"
+        android:paddingTop="10dp"
+        android:hint="Tarih Bilgisi İçin Tıklayınız"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_corner"
+        android:gravity="center"
+        app:backgroundTint="@null"
+        android:layout_marginTop="15dp"
+        android:text="GÜNCELLE"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>
+</layout>

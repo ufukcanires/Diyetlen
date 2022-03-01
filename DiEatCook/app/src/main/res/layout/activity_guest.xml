@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#708090"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".ui.guest.GuestActivity">
+
+    <Button
+        android:id="@+id/calculate1"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_corner"
+        android:gravity="center"
+        app:backgroundTint="@null"
+        android:layout_marginBottom="15dp"
+        android:text="VÜCUT KİTLE ENDEKSİ HESAPLAMA"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/calculate2"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_corner"
+        android:gravity="center"
+        app:backgroundTint="@null"
+        android:layout_marginBottom="15dp"
+        android:text="BAZAL METABOLİZMA HIZI HESAPLAMA"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/calculate3"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_corner"
+        android:gravity="center"
+        app:backgroundTint="@null"
+        android:layout_marginBottom="15dp"
+        android:text="VÜCUT YAĞ ORANINI HESAPLAMA"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+</LinearLayout>

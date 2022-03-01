@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dogus.dieatcook">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DiEatCook">
+        <activity
+            android:name=".ui.favori.YemekTarifiFavActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.favori.BesinFavActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.graphs.BodyFatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.graphs.BasalGraphsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.graphs.GraphsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cook.web.YemekSepetiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cook.web.WebActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cook.CookDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.UptatedProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.comment.CommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cook.CookActivity"
+            android:exported="false" />
+        <activity android:name=".ui.calculate.BasalMetabolismActivity" />
+        <activity android:name=".ui.calculate.BodyFatRatioActivity" />
+        <activity android:name=".ui.calculate.BodyMassIndexActivity" />
+        <activity android:name=".ui.nutrite.NutriteDetailActivity" />
+        <activity android:name=".ui.nutrite.HomePageActivity" />
+        <activity android:name=".ui.guest.GuestActivity" />
+        <activity android:name=".ui.user.RegisterActivity" />
+        <activity android:name=".ui.user.SingInActivity" />
+        <activity android:name=".ui.cook.web.GetirActivity" />
+        <activity
+            android:name=".splash.SplahScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.user.ProfilActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#708090"
+    android:layout_height="match_parent"
+    tools:context=".ui.user.SingInActivity">
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTURUM AÇ"/>
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_corner"
+        android:backgroundTint="@null"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="E-Mail Giriniz"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_corner"
+        android:backgroundTint="@null"
+        android:inputType="textPassword"
+        android:hint="Şifre Giriniz"
+        android:paddingLeft="15dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/signin1"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_corner"
+        android:gravity="center"
+        android:text="Oturum Aç"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_corner"
+        android:gravity="center"
+        android:onClick="guestEnter"
+        android:text="Misafir Kullanıcı Girişi"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/newAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="RegisterClick"
+        android:text="@string/oturum_ac"
+        android:textColor="@color/black" />
+
+
+
+</LinearLayout>

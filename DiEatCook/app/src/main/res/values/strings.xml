@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DiEatCook</string>
+    <string name="hesap_olustur">Zaten Bir Hesabın Var Mı? <b>Oturum Aç</b></string>
+    <string name="oturum_ac">Hesabım Henüz Yok <b>Kayıt Ol</b></string>
+    <string name="open">Hesabım Henüz Yok <b>Open</b></string>
+    <string name="close">Hesabım Henüz Yok <b>Close</b></string>
+</resources>

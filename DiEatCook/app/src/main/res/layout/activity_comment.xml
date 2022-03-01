@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#708090"
+    tools:context=".ui.comment.CommentActivity">
+
+
+    <EditText
+        android:id="@+id/etadsoyad"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:paddingLeft="30dp"
+        android:backgroundTint="@null"
+        android:background="@drawable/btn_corner"
+        android:hint="Adını ve Soyadınızı Giriniz"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/etyorum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etyorum"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:paddingLeft="30dp"
+        android:backgroundTint="@null"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_corner"
+        android:hint="Yorumunuzu Giriniz"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnkaydet"
+        app:layout_constraintEnd_toEndOf="@+id/etadsoyad"
+        app:layout_constraintStart_toStartOf="@+id/etadsoyad"
+        app:layout_constraintTop_toBottomOf="@+id/etadsoyad" />
+
+    <Button
+        android:id="@+id/btnkaydet"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_corner"
+        android:gravity="center"
+        app:backgroundTint="@null"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="Kaydet"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btngoster"
+        app:layout_constraintEnd_toEndOf="@+id/etyorum"
+        app:layout_constraintStart_toStartOf="@+id/etyorum"
+        app:layout_constraintTop_toBottomOf="@+id/etyorum"
+        />
+    <Button
+        android:id="@+id/btngoster"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_corner"
+        android:gravity="center"
+        app:backgroundTint="@null"
+        android:text="Yorumları Göster"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/btnkaydet"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="@+id/btnkaydet"
+        app:layout_constraintStart_toStartOf="@+id/btnkaydet"
+        />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btngoster">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvsonuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

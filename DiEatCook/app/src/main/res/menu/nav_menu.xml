@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Besinler"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item android:title="Yemek">
+        <menu>
+            <item
+                android:id="@+id/nav_food"
+                android:icon="@drawable/ic_fastfood"
+                android:title="Yemekler"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Favoriler">
+        <menu>
+            <item
+                android:id="@+id/nav_food_fav"
+                android:icon="@drawable/ic_favorite"
+                android:title="Favori Besinler"
+                />
+
+            <item
+                android:id="@+id/nav_cook_fav"
+                android:icon="@drawable/ic_favorite"
+                android:title="Favori Yemekler"
+                />
+
+        </menu>
+    </item>
+
+    <item android:title="Grafikler">
+        <menu>
+            <item
+                android:id="@+id/nav_graphs"
+                android:title="Vücut Kitle Endeksi Grafiği"
+                android:icon="@drawable/ic_barchart"
+                />
+            <item
+                android:id="@+id/nav_graphs1"
+                android:title="Bazal Metabolizma Grafiği"
+                android:icon="@drawable/ic_barchart"
+                />
+            <item
+                android:id="@+id/nav_graphs2"
+                android:title="Vücut Yağ Oranı Grafiği"
+                android:icon="@drawable/ic_barchart"
+                />
+        </menu>
+    </item>
+    <item android:title="Profil">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:title="Kişisel Bilgiler"
+                android:icon="@drawable/ic_person"
+                />
+            <item
+                android:id="@+id/nav_logOut"
+                android:title="Çıkış"
+                android:icon="@drawable/ic_exit"
+                />
+
+        </menu>
+    </item>
+
+
+
+</menu>

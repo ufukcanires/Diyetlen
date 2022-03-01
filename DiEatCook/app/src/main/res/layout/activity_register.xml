@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#708090"
+    tools:context=".ui.user.RegisterActivity">
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAYIT OL"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:hint="E-Mail Giriniz"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_email"
+            android:paddingLeft="15dp"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@null"
+            android:background="@drawable/btn_corner"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:hint="Şifre Giriniz"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_lock"
+            android:paddingLeft="15dp"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@null"
+            android:background="@drawable/btn_corner"
+            />
+        <EditText
+            android:id="@+id/repassword"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:hint="Şifreni Tekrar Giriniz"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_lock"
+            android:paddingLeft="15dp"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@null"
+            android:background="@drawable/btn_corner"
+            />
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_corner"
+        android:gravity="center"
+        android:text="Hesap Oluştur"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:onClick="SignInClick"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hesap_olustur"
+        />
+    </LinearLayout>
+
+</LinearLayout>
